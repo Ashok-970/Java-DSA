@@ -74,7 +74,7 @@ public class CircularLinkedList {
             current.next = head;
             tail = current;
         }
-    }
+    }*/
 
     // Display the list
     public void display() {
@@ -95,18 +95,18 @@ public class CircularLinkedList {
     public static void main(String[] args) {
         CircularLinkedList cll = new CircularLinkedList();
 
-        cll.insertAtEnd(10);
-        cll.insertAtEnd(20);
+        //cll.insertAtEnd(10);
+        //cll.insertAtEnd(20);
         cll.insertAtBeginning(5);
         cll.insertAtBeginning(1);
         System.out.print("List after insertions: ");
         cll.display();
 
-        cll.deleteAtBeginning();
+        //cll.deleteAtBeginning();
         System.out.print("List after deleting from beginning: ");
         cll.display();
 
-        cll.deleteAtEnd();
+        //cll.deleteAtEnd();
         System.out.print("List after deleting from end: ");
         cll.display();
     }
